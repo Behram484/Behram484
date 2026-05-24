@@ -1,6 +1,6 @@
 # Behram Alyas
 
-Final-year BSc Computer Science and Artificial Intelligence student at the University of Sussex, focused on AI software engineering, local LLM pipelines, automated testing, and applied machine learning.
+Final-year BSc Computer Science and Artificial Intelligence student at the University of Sussex, focused on AI software engineering, local LLM pipelines, automated testing, and applied machine learning. I am currently seeking UK-based junior software engineering, AI/ML engineering, and test automation roles.
 
 ## Current Focus
 
@@ -16,7 +16,7 @@ Final-year BSc Computer Science and Artificial Intelligence student at the Unive
 Local LLM pipeline for generating, validating, repairing, and evaluating Java unit tests using Ollama, JUnit 5, Maven, and PIT mutation testing.
 
 ### Applied Machine Learning Projects
-NLP spam classification and computer vision face keypoint detection using scikit-learn, Sentence-BERT, PyTorch, and ResNet models.
+NLP spam classification and computer vision facial keypoint detection using scikit-learn, Sentence-BERT, PyTorch, and ResNet models.
 
 ### Secure Web Application
 PHP/MySQL web application implementing authentication, bcrypt password hashing, CSRF protection, SQL injection prevention, XSS mitigation, 2FA, and RBAC.
@@ -27,6 +27,6 @@ Interactive Three.js and Blender showroom with custom shaders, bloom post-proces
 ## Looking For
 
 - Junior Software Engineer roles
-- AI / ML Engineer internships
 - Test Automation / QA Automation roles
+- AI / ML Engineer internships
 - Python / Backend Developer roles
