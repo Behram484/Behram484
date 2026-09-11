@@ -1,6 +1,6 @@
 # Behrem Elyas
 
-Final-year BSc Computer Science and Artificial Intelligence student at the University of Sussex, focused on AI software engineering, local LLM pipelines, automated testing, and applied machine learning. I am currently seeking UK-based junior software engineering, AI/ML engineering, and test automation roles.
+BSc Computer Science and Artificial Intelligence student at the University of Sussex, focused on AI software engineering, local LLM pipelines, automated testing, and applied machine learning. I am currently seeking UK-based junior software engineering, AI/ML engineering, and test automation roles.
 
 ## Current Focus
 
