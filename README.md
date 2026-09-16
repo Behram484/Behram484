@@ -1,32 +1,56 @@
 # Behrem Elyas
 
-BSc Computer Science and Artificial Intelligence student at the University of Sussex, focused on AI software engineering, local LLM pipelines, automated testing, and applied machine learning. I am currently seeking UK-based junior software engineering, AI/ML engineering, and test automation roles.
+**BSc (Hons) Computer Science & Artificial Intelligence, First-Class — University of Sussex, 2026**
+Based in Calgary, AB, Canada · Authorized to work in Canada, no sponsorship required · Open to relocation across Canada
 
-## Current Focus
+I build and evaluate developer tooling around local LLMs — test generation, automated repair, and mutation-based quality measurement — plus applied ML and secure backend work.
 
-- Local LLM-based software testing tools
-- Automated unit test generation and mutation testing
-- Applied machine learning in NLP and computer vision
-- Secure web application development
-- Python-based engineering and experiment pipelines
+---
 
-## Featured Projects
+## Featured work
 
 ### LLM-Based Automated Unit Test Generation
-Local LLM pipeline for generating, validating, repairing, and evaluating Java unit tests using Ollama, JUnit 5, Maven, and PIT mutation testing.
+[`llm-testgen-project`](https://github.com/Behram484/llm-testgen-project) · Java, Python, Ollama, JUnit 5, Maven, PIT
 
-### Applied Machine Learning Projects
-NLP spam classification and computer vision facial keypoint detection using scikit-learn, Sentence-BERT, PyTorch, and ResNet models.
+End-to-end pipeline that generates JUnit 5 tests from Java source, validates them through Maven compile and execute, repairs failures in an iterative loop, and scores test quality with PIT mutation analysis.
+
+- Diagnosed ANSI/control-character contamination in raw model output; sanitizing it raised pipeline success from **43.3% to 86.7%** across 40 Java classes
+- Mutation-guided augmentation improved mean mutation scores by **14.6–19.4 percentage points**
+- 2 x 2 x 2 factorial evaluation across model size (Qwen2.5-Coder 32B / DeepSeek-Coder 6.7B), prompt profile, and repair budget
+
+### Make Data Count: Finding Data References — Kaggle Silver Medal
+Team lead (5 people) · **42nd of 1,282 teams, top 3.3%**
+
+<!-- Add the solution repo link here once it is up: [`kaggle-make-data-count`](https://github.com/Behram484/kaggle-make-data-count) -->
+
+### Applied Machine Learning
+[`applied-machine-learning-projects`](https://github.com/Behram484/applied-machine-learning-projects) · PyTorch, scikit-learn, Sentence-BERT
+
+Spam classification comparing TF-IDF against Sentence-BERT embeddings, and facial keypoint regression using ResNet transfer learning.
 
 ### Secure Web Application
-PHP/MySQL web application implementing authentication, bcrypt password hashing, CSRF protection, SQL injection prevention, XSS mitigation, 2FA, and RBAC.
+[`secure-web-application`](https://github.com/Behram484/secure-web-application) · PHP, MySQL
 
-### Reborn Wings — Interactive 3D Web
-Interactive Three.js and Blender showroom with custom shaders, bloom post-processing, and responsive web design.
+Authentication and admin system built to OWASP practices: bcrypt hashing, prepared statements, CSRF tokens, XSS output escaping, 2FA, account lockout, role-based access control, and validated file uploads.
 
-## Looking For
+### Reborn Wings — Interactive 3D Showroom
+[`3D-Web`](https://github.com/Behram484/3D-Web) · Three.js, GLSL, Blender
 
-- Junior Software Engineer roles
-- Test Automation / QA Automation roles
-- AI / ML Engineer internships
-- Python / Backend Developer roles
+Browser-based aircraft showroom with custom GLSL shaders and bloom post-processing; aircraft modelled in Blender.
+
+---
+
+## Tools
+
+**Languages** Java · Python · SQL · JavaScript · C# · PHP · HTML/CSS
+**Testing** JUnit 5 · PIT mutation testing · Maven · pytest
+**AI/ML** Local LLM inference (Ollama, Qwen2.5-Coder, DeepSeek-Coder) · prompt engineering · evaluation harnesses · PyTorch · scikit-learn
+**Other** Git · Linux · MySQL · Three.js · Unity
+
+---
+
+## Open to
+
+Junior Software Engineer · Backend Developer · Test / QA Automation · AI/ML Engineer — in Canada, on site, hybrid, or remote.
+
+Reach me at **janbehrem@gmail.com** or on [LinkedIn](https://linkedin.com/in/behrem-elyas-86703b411).
