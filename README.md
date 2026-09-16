@@ -18,6 +18,8 @@ End-to-end pipeline that generates JUnit 5 tests from Java source, validates the
 - Mutation-guided augmentation improved mean mutation scores by **14.6–19.4 percentage points**
 - 2 x 2 x 2 factorial evaluation across model size (Qwen2.5-Coder 32B / DeepSeek-Coder 6.7B), prompt profile, and repair budget
 
+[![Success rates before and after output sanitation across all eight conditions](https://raw.githubusercontent.com/Behram484/llm-testgen-project/main/charts/ansi-fix-success.png)](https://github.com/Behram484/llm-testgen-project)
+
 ### Make Data Count: Finding Data References — Kaggle Silver Medal
 Team lead (5 people) · **42nd of 1,282 teams, top 3.3%**
 
@@ -37,6 +39,8 @@ Authentication and admin system built to OWASP practices: bcrypt hashing, prepar
 [`3D-Web`](https://github.com/Behram484/3D-Web) · Three.js, GLSL, Blender
 
 Browser-based aircraft showroom with custom GLSL shaders and bloom post-processing; aircraft modelled in Blender.
+
+[Live demo](https://behram484.github.io/3D-Web/)
 
 ---
 
