@@ -20,6 +20,15 @@ End-to-end pipeline that generates JUnit 5 tests from Java source, validates the
 
 [![Success rates before and after output sanitation across all eight conditions](https://raw.githubusercontent.com/Behram484/llm-testgen-project/main/charts/ansi-fix-success.png)](https://github.com/Behram484/llm-testgen-project)
 
+### Data Citation Extraction — Independent Rebuild
+[`mdc-data-reference-extraction`](https://github.com/Behram484/mdc-data-reference-extraction) · Python, XML parsing, rule-based NLP
+
+Extracting data citations from scientific full text and classifying each as primary or secondary use.
+
+- Four-stage pipeline raised dev F1 from **0.057 to 0.639**, each stage committed with its own measured delta
+- Scored a pre-registered holdout **once** and reported it unchanged: **F1 0.285**. Type rules fitted on 122 articles reversed on 23 — an accession-format prior held 95% on dev and 42% on holdout, worse than a constant baseline
+- Effective sample size proved to be articles, not mentions (4 articles carried 86 of 153 labels); added article-level bootstrap confidence intervals that mention-level intervals had hidden
+
 ### Make Data Count: Finding Data References — Kaggle Silver Medal
 Team lead (5 people) · **42nd of 1,282 teams, top 3.3%**
 
