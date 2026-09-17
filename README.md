@@ -20,6 +20,16 @@ End-to-end pipeline that generates JUnit 5 tests from Java source, validates the
 
 [![Success rates before and after output sanitation across all eight conditions](https://raw.githubusercontent.com/Behram484/llm-testgen-project/main/charts/ansi-fix-success.png)](https://github.com/Behram484/llm-testgen-project)
 
+### Selenium Regression Suite
+[`selenium-regression-suite`](https://github.com/Behram484/selenium-regression-suite) · Java 17, JUnit 5, Selenium WebDriver, Maven, Docker, GitHub Actions
+
+Browser regression tests against a PHP/MySQL security application I had written — auth, 2FA, password reset, RBAC and upload validation.
+
+- **46 tests**, page object model, full suite on every push in headless Chrome in **1m43s**, nothing skipped or excluded
+- Found **7 defects** and fixed 6 with a test guarding each — including two **account-enumeration disclosures** (login error text, and the reset flow revealing accounts by showing or hiding the security question)
+- Found the app could not be reproduced from a clean clone (missing base schema) and made that a CI-verified step
+- The README also records the negative results, and a `ExpectedConditions.stalenessOf` gotcha: it detects staleness by catching `StaleElementReferenceException`, and Chrome 152 throws a different one — so it fails on the very navigation it is meant to wait for
+
 ### Data Citation Extraction — Independent Rebuild
 [`mdc-data-reference-extraction`](https://github.com/Behram484/mdc-data-reference-extraction) · Python, XML parsing, rule-based NLP
 
@@ -56,9 +66,9 @@ Browser-based aircraft showroom with custom GLSL shaders and bloom post-processi
 ## Tools
 
 **Languages** Java · Python · SQL · JavaScript · C# · PHP · HTML/CSS
-**Testing** JUnit 5 · PIT mutation testing · Maven · pytest
+**Testing** Selenium WebDriver · JUnit 5 · PIT mutation testing · Maven · pytest · page object model
 **AI/ML** Local LLM inference (Ollama, Qwen2.5-Coder, DeepSeek-Coder) · prompt engineering · evaluation harnesses · PyTorch · scikit-learn
-**Other** Git · Linux · MySQL · Three.js · Unity
+**Other** Git · GitHub Actions · Docker · Linux · MySQL · Three.js · Unity
 
 ---
 
